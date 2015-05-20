@@ -1,10 +1,10 @@
 # Code Book
 ## processing data with run_analysis.R
 
-Script does following
+Script does following in the current folder.
 
-1. Download Human Activity Recognition data from [http://archive.ics.uci.edu/](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) site
-2. Unzip it
+1. Download Human Activity Recognition data from [this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+2. Unzip it.
 3. Merges two sets *X_test.txt* and *X_train.txt* data into single dataset using *features.txt* for naming column.
 4. Uses *y_test.txt*, *y_train.txt*, *subject_train.txt*, *subject_test.txt* to tie every row in dataset to subject and activity type, by creating two additional columns 'subjectId' and 'activity'.
 5. Using *activity_labels.txt* encodes activity to factors with human readable names.
@@ -15,7 +15,7 @@ Script does following
 
 ## Columns description for *filteredDataSet.csv*
 
-filteredDataSet.csv contains following columns:
+*filteredDataSet.csv* contains following columns:
 
 - activity
 - subjectId
@@ -249,4 +249,4 @@ The first two columns in *filteredDataSet.csv* represent activity type (WALKING,
 - mean.fBodyBodyGyroJerkMag.std..
 - mean.fBodyBodyGyroJerkMag.meanFreq..
 
-Measurement description is similar to *filteredDataSet.csv*, but 'mean.' preffix was added to each mesurement columt to show that the data represents the average of each variable for each activity and each subject.
+Measurement description is similar to *filteredDataSet.csv*, but 'mean.' preffix was added to show that the data represents the average of each variable for each activity and each subject.
