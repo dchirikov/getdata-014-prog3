@@ -1,5 +1,5 @@
 # Code Book
-## processing data with run_analysis.R
+## processing data with [run_analysis.R](run_analysis.R)
 
 Script does following in the current folder.
 
@@ -166,6 +166,8 @@ The complete list of variables of each feature vector is available in 'features.
 The first two columns in *filteredDataSet.csv* represent activity type (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and id of the subject who performed this activity (from 1 to 30).
 
 ## Columns description for *meanDataSet.csv*
+
+[meanDataSet.csv](meanDataSet.csv) contains following columns:
 
 - activity
 - subjectId
