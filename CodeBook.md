@@ -11,7 +11,7 @@ Script does following in the current folder.
 6. Filters big dataset to smaler dataset with columns contain only mean and standart deviation measurements.
 7. Add 'mean.' preffix to each mesurement column.
 8. Creates tidy data set with the average of each variable for each activity and each subject.
-9. Writes two last datasets to csv files. To *filteredDataSet.csv* and *meanDataSet.csv* respectively.
+9. Writes two last datasets to csv files. To (filteredDataSet.csv) and (meanDataSet.csv) respectively.
 
 ## Columns description for *filteredDataSet.csv*
 
