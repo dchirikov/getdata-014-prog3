@@ -1,6 +1,8 @@
 # Code Book
 ## processing data with run_analysis.R
-Script do following
+
+Script does following
+
 1. Download Human Activity Recognition data from [http://archive.ics.uci.edu/](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) site
 2. Unzip it
 3. Merges two sets test and train data into single dataset using *features.txt* for naming column.
