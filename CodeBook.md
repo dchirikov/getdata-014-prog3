@@ -10,7 +10,7 @@ From this [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recogniti
 
 Script does following in the current folder.
 
-1. Download Human Activity Recognition data from [this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+1. Download Human Activity Recognition data archive from [this link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) or uses pre-downloaded one.
 2. Unzip it.
 3. Merges two sets *X_test.txt* and *X_train.txt* data into single dataset using *features.txt* for naming column.
 4. Uses *y_test.txt*, *y_train.txt*, *subject_train.txt*, *subject_test.txt* to tie every row in dataset to subject and activity type, by creating two additional columns 'subjectId' and 'activity'.
