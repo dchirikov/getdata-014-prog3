@@ -68,3 +68,8 @@ colnames(meanDataSet)[-c(1:2)] <- paste('mean.',
                                         colnames(meanDataSet)[-c(1,2)],
                                         sep=''
                                     )
+
+# save mean dataset to file
+# #5
+write.csv(filteredDataSet, 'filteredDataSet.csv', row.names=FALSE)
+write.csv(meanDataSet, 'meanDataSet.csv', row.names=FALSE)
