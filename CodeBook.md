@@ -11,11 +11,11 @@ Script does following in the current folder.
 6. Filters big dataset to smaler dataset with columns contain only mean and standart deviation measurements.
 7. Add 'mean.' preffix to each mesurement column.
 8. Creates tidy data set with the average of each variable for each activity and each subject.
-9. Writes two last datasets to csv files. To (filteredDataSet.csv) and (meanDataSet.csv) respectively.
+9. Writes two last datasets to csv files. To [filteredDataSet.csv](filteredDataSet.csv) and [meanDataSet.csv](meanDataSet.csv) respectively.
 
-## Columns description for *filteredDataSet.csv*
+## Columns description for [filteredDataSet.csv](filteredDataSet.csv)
 
-*filteredDataSet.csv* contains following columns:
+[filteredDataSet.csv](filteredDataSet.csv) contains following columns:
 
 - activity
 - subjectId
@@ -165,7 +165,7 @@ The complete list of variables of each feature vector is available in 'features.
 
 The first two columns in *filteredDataSet.csv* represent activity type (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and id of the subject who performed this activity (from 1 to 30).
 
-## Columns description for *meanDataSet.csv*
+## Columns description for [meanDataSet.csv](meanDataSet.csv)
 
 [meanDataSet.csv](meanDataSet.csv) contains following columns:
 
@@ -251,4 +251,4 @@ The first two columns in *filteredDataSet.csv* represent activity type (WALKING,
 - mean.fBodyBodyGyroJerkMag.std..
 - mean.fBodyBodyGyroJerkMag.meanFreq..
 
-Measurement description is similar to *filteredDataSet.csv*, but 'mean.' preffix was added to show that the data represents the average of each variable for each activity and each subject.
+Measurement description is similar to [filteredDataSet.csv section](CodeBook.md#columns-description-for-filtereddatasetcsv), but 'mean.' preffix was added to show that the data represents the average of each variable for each activity and each subject.
