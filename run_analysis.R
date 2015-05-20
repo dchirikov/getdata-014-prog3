@@ -13,9 +13,10 @@ load.data <- function(setName,features) {
 }
 
 # Downlod and unzip dataset
-
-datasetLink <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-download.file(datasetLink, destfile='UCI HAR Dataset.zip', method='curl')
+if (!file.exists('UCI HAR Dataset.zip')) {
+    datasetLink <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+    download.file(datasetLink, destfile='UCI HAR Dataset.zip', method='curl')
+}
 unzip('UCI HAR Dataset.zip')
 
 # Read fatures.txt data with the names of the columns
